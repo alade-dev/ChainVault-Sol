@@ -5,7 +5,7 @@
 Start the Next.js development server on the default port 3000 with:
 
 ```
-yarn
+yarn install
 ```
 
 ```

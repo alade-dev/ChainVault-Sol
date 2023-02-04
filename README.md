@@ -12,7 +12,7 @@ npm install
 npm run dev
 ```
 
-> Alternatively, run `yarn dev -p 8080` or any port other than `8080` to start the server in a different port.
+> Alternatively, run `npm run dev -p 8080` or any port other than `8080` to start the server in a different port.
 
 Once the server is running, you should see output that looks like this:
 

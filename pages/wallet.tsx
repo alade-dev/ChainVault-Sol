@@ -113,7 +113,7 @@ const Wallet: NextPage = () => {
             title="Send Funds"
             placement="bottom"
             onClose={handleClose}
-            visible={visible}
+            open={visible}
             height={'55vh'}
           >
             <TransactionLayout />

@@ -12,6 +12,7 @@
     "@chakra-ui/react": "^2.4.9",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@heroicons/react": "^2.0.14",
     "@next/font": "13.1.6",
     "@solana/web3.js": "^1.73.0",
     "@types/node": "18.11.18",

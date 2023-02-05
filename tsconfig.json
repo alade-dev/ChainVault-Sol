@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/Navbar.jsx", "components/Header.jsx", "pages/index.jsx"  ],
+, "components/Navbar.jsx", "components/Header.jsx", "pages/index.jsx", "pages/wallet.tsx"  ],
   "exclude": [
     "node_modules"
   ]

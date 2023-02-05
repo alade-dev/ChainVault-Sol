@@ -12,6 +12,8 @@ import styles from './index.module.css';
 import { useGlobalState } from '../../context';
 import { useRouter } from 'next/router';
 import { Cluster } from '@solana/web3.js';
+import { Box, Image } from '@chakra-ui/react';
+import { motion } from 'framer-motion';
 
 type DomEvent = {
   domEvent: BaseSyntheticEvent;
@@ -71,7 +73,13 @@ const Layout = ({ children }: { children: JSX.Element }): ReactElement => {
       <main className={styles.main}>
         <header className={styles.header}>
           <Link href={`/`} passHref>
-            <div className={`${styles.top} ${styles.logo}`}>ChainVault</div>
+            <Box as={motion.div} whileHover={{ scale: 1.1, rotate: 0 }}>
+              <Image
+                className="w-[160px] h-[120px] font-extrabold pb-0 cursor-pointer mb-0"
+                src="/ChainVault.png"
+                alt="logo"
+              />
+            </Box>
           </Link>
 
           <Menu

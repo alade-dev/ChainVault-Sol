@@ -31,7 +31,7 @@ const Home = () => {
             }}
             marginBottom={{ base: '26px', md: '26px', lg: '26px' }}
             as={motion.div}
-            whileHover={{ scale: 1.1, rotate: 2 }}
+            whileHover={{ scale: 1.1, rotate: 0 }}
           >
             The <Text as="b">ChainVault Wallet</Text> is here
           </Heading>
@@ -60,7 +60,7 @@ const HomeTitle = styled.h1`
   text-align: center;
 
   & > a {
-    color: #0070f3;
+    color: #0035fa;
     text-decoration: none;
 
     &:hover,

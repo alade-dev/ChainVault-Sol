@@ -29,7 +29,7 @@ const CreateAccount = (): ReactElement => {
         {!loading && (
           <Link href="/generate" passHref>
             <Button
-              className="bg-gray-900 text-white shadow-md border rounded-md px-4 font-medium "
+              className="bg-gray-900 text-white hover:border-none translate-y-3 transition ease-out hover:text-[#2883b1] shadow-md border rounded-md px-4 font-medium "
               onClick={handleGenerate}
             >
               Create New Wallet

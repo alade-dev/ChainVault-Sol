@@ -20,9 +20,7 @@ const RestoreAccount = (): ReactElement => {
       <UnlockOutlined
         style={{ fontSize: '3rem', margin: '2rem 0', display: 'block' }}
       />
-      <h2 >
-        Import Wallet
-      </h2>
+      <h2>Import Wallet</h2>
       <p className="">
         Use your secret recovery phrase to restore an existing Solana wallet.
       </p>
@@ -31,7 +29,7 @@ const RestoreAccount = (): ReactElement => {
         {!loading && (
           <Link href="/recover" passHref>
             <Button
-              className="bg-gray-900  text-white shadow-md border rounded-md px-4 font-medium"
+              className="bg-gray-900  text-white hover:border-none translate-y-3 transition ease-out hover:text-[#2883b1] shadow-md border rounded-md px-4 font-medium"
               onClick={handleGetWallet}
             >
               Get Existing Wallet

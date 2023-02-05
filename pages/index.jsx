@@ -29,12 +29,18 @@ const Home = () => {
               fontWeight: '200',
               lineHeight: '67px',
             }}
-            marginBottom={{ base: '26px', md: '26px', lg: '26px' }}
+            
             as={motion.div}
             whileHover={{ scale: 1.1, rotate: 0 }}
           >
             The <Text as="b">ChainVault Wallet</Text> is here
           </Heading>
+            <Text  size={{ base: 'xl', md: 'xl', lg: 'xl' }}
+            sx={{
+              fontWeight: '600',
+              lineHeight: '64px',
+            }}
+            marginBottom={{ base: '22px', md: '12px', lg: '12px' }}>Access Your NFT collections</Text>
         </Box>
         A simple, Powerful and non-custodial crypto wallet for managing{' '}
         <Link passHref href="https://solana.com/">

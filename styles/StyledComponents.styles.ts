@@ -7,7 +7,7 @@ export const Card = styled.div`
   max-width: 20rem;
   text-align: left;
   color: inherit;
-  background-color: #65d25c;
+  background-color: #859CEE;
   text-decoration: none;
   border: 5px solid #efefef;
   border-radius: 5px;
